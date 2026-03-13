@@ -64,4 +64,4 @@ end
 -- End setup for Godot
 
 -- Set relativenumber so scrolling updated status columns
-vim.opt.relativenumber = true 
+vim.opt.relativenumber = true
