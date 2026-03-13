@@ -64,4 +64,4 @@ end
 -- End setup for Godot
 
 -- Status column setup
-vim.opt.statuscolumn = "%s %{v:relnum} %{v:lnum}"
+vim.opt.statuscolumn = "%s %{v:relnum} %{v:lnum} "
