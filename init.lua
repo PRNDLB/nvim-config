@@ -13,7 +13,7 @@ vim.keymap.set('n', '<leader>fh', builtin.help_tags, { desc = 'Telescope help ta
 -- End telescope setup
 
 -- Neoscroll setup directly from https://github.com/karb94/neoscroll.nvim
-neoscroll = require('neoscroll')
+local neoscroll = require('neoscroll')
 neoscroll.setup({
   -- Default easing function used in any animation where
   -- the `easing` argument has not been explicitly supplied
@@ -63,5 +63,5 @@ if is_godot_project and not is_server_running then
 end
 -- End setup for Godot
 
--- Status column setup
-vim.opt.statuscolumn = "%s %{v:relnum} %{v:lnum} "
+-- Set relativenumber so scrolling updated status columns
+vim.opt.relativenumber = true 
