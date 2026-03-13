@@ -63,4 +63,5 @@ if is_godot_project and not is_server_running then
 end
 -- End setup for Godot
 
-
+-- Status column setup
+vim.opt.statuscolumn = "%s %{v:relnum} %{v:lnum}"
