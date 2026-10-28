@@ -7,7 +7,7 @@ local lsp_list = {
     "clangd",
     "ts_ls",
     "cssls",
-    "gdscript",
+    "qmlls",
 }
 
 return {

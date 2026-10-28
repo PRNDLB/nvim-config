@@ -22,7 +22,8 @@ return{
             "yaml",
             "gdscript",
             "godot_resource",
-            "gdshader",
+	    "gdscript",
+	    "qml"
         },
         highlight = {
             enable = true,
