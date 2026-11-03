@@ -63,5 +63,6 @@ if is_godot_project and not is_server_running then
 end
 -- End setup for Godot
 
--- Set relativenumber so scrolling updated status columns
+-- Set relativenumber so scrolling updates status columns
 vim.opt.relativenumber = true
+vim.opt.cursorline = true
