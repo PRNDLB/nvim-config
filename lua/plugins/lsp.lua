@@ -8,6 +8,7 @@ local lsp_list = {
     "ts_ls",
     "cssls",
     "qmlls",
+    "jdtls",
 }
 
 return {
